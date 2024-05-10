@@ -1,0 +1,68 @@
+.aboutme {
+    background-color: #f8f8f8;
+    padding: 8rem 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.col-1 {
+    flex: 1;
+    overflow: hidden;
+    position: relative;
+    max-width: 50%; /* Adjust to take up half of the screen */
+
+}
+
+.col-1 img {
+    width: 300px;
+    height: auto;
+    transition: transform 0.5s ease;
+}
+@media screen and (max-width: 940px) {
+    .col-1 {
+        max-width: 100%;
+    }
+}
+.col-1:hover img {
+    transform: scale(1.1);
+}
+
+.col-2 {
+    flex: 1;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 3rem;
+    color: #fff;
+}
+
+.col-2 .content {
+    max-width: 500px;
+    margin: auto;
+}
+
+.col-2 h2 {
+    font-size: 3rem;
+}
+
+.col-2 p {
+    margin-bottom: 1rem;
+}
+
+.button {
+    margin-top: 1rem;
+    background-color: #fff;
+    color: #000;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #ccc;
+}
+

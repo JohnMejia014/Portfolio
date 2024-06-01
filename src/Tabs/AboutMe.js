@@ -15,7 +15,6 @@ const AboutMe = () => {
                         <span className='line'></span>
                         <p>Intense is an International Financial Planning company with offices in multiple jurisdictions over the world. Working with Intense gives me the ability to advise international expatriates living in the Middle East from where I live in the USA.</p>
                         <p>I am John Mejia, a senior advisor for an independently owned financial planning company called Intense.</p>
-                        <button className='button'>Explore More</button>
                     </div>
                 </div>
             </div>

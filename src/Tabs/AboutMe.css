@@ -1,5 +1,5 @@
 .aboutme {
-    background-color: #f8f8f8;
+    background-color: #000000;
     padding: 8rem 0;
 }
 
@@ -19,9 +19,10 @@
 }
 
 .col-1 img {
-    width: 300px;
+    width: 30vw;
     height: auto;
     transition: transform 0.5s ease;
+    padding-left: 50px;
 }
 @media screen and (max-width: 940px) {
     .col-1 {
@@ -40,7 +41,7 @@
 }
 
 .col-2 .content {
-    max-width: 500px;
+    max-width: 500;
     margin: auto;
 }
 

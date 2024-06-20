@@ -3,6 +3,9 @@ import React from 'react';
 import TabsDropdown from './TabBar';
 import './Projects.css';  // Create a new CSS file for Projects component specific styles
 import KickOffConnect from './Components/KickOffConnect';
+import CVProject from './Components/CVProject';
+import Website from './Components/Website';
+import DMP from './Components/DMP';
 const Projects = () => {
 
   return (
@@ -18,6 +21,9 @@ const Projects = () => {
         </div>
         <div className="projects-grid">
           <KickOffConnect/>
+          <CVProject/>
+          <Website/>
+          <DMP/>
         </div>
       </div>  
     </div>  

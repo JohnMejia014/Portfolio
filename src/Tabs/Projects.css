@@ -21,7 +21,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 200px;
+  gap: 100px;
   padding: 80px;
 }
 

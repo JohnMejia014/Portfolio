@@ -13,8 +13,14 @@ const AboutMe = () => {
                     <div className='content'>
                         <h2>About Me</h2>
                         <span className='line'></span>
-                        <p>Intense is an International Financial Planning company with offices in multiple jurisdictions over the world. Working with Intense gives me the ability to advise international expatriates living in the Middle East from where I live in the USA.</p>
-                        <p>I am John Mejia, a senior advisor for an independently owned financial planning company called Intense.</p>
+                            <p> 
+                                Software Engineer skilled in both software development and hardware integration. Demonstrated proficiency in
+                                programming languages including Python, JavaScript, and C++, complemented by hands-on experience in circuit
+                                board programming and test bench creation. Utilizes a blend of front-end and back-end tools, such as React and
+                                MongoDB, to enhance product functionality and user experience, ensuring robust, scalable solutions in
+                                technology projects.
+                            </p>
+                        <p>Hello I am John Mejia</p>
                     </div>
                 </div>
             </div>

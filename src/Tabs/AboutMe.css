@@ -37,7 +37,7 @@
     flex: 1;
     background-color: rgba(0, 0, 0, 0.5);
     padding: 3rem;
-    color: #fff;
+    color: hsl(0, 0%, 100%);
 }
 
 .col-2 .content {

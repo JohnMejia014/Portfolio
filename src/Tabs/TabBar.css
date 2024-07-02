@@ -34,7 +34,7 @@
 }
 
 .header .nav-item {
-  padding: 1rem;
+  padding: 1.2rem;
   font-weight: 500;
 }
 
@@ -80,7 +80,7 @@
   }
 
   .nav-item {
-      margin: 1.5rem 0;
+      margin: 1.5rem 1.0rem;
   }
 
   .header .navbar img {

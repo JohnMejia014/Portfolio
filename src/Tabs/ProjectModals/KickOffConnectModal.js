@@ -32,7 +32,7 @@ const KickOffConnectModal = ({ projectClicked, closeModal, project }) => {
         </div>
       
         <h3>
-          Presentation
+          Presentation 
         </h3>
         <div className='Report'>
          <Worker workerUrl="https://unpkg.com/pdfjs-dist@3.4.120/build/pdf.worker.min.js">

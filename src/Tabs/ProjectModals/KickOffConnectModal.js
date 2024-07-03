@@ -7,6 +7,7 @@ import video from '../Components/KickOffConnectFiles/KickOffConnectVideo.mp4'
 import { Worker, Viewer } from '@react-pdf-viewer/core';
 import '@react-pdf-viewer/core/lib/styles/index.css';
 import './KickOffConnectModal.css'
+import YouTubeEmbed from '../Components/YoutubeEmbed';
 const KickOffConnectModal = ({ projectClicked, closeModal, project }) => {
   const [pageNumber, setPageNumber] = useState(1);
   const [numPages, setNumPages] = useState(1);
@@ -26,8 +27,8 @@ const KickOffConnectModal = ({ projectClicked, closeModal, project }) => {
           KickOffConnect
         </h2>
 
-        <div className='Video'>
-          <VideoPlayer src={video} width="800" height="450" />
+        <div className='ytvid'>
+          <YouTubeEmbed videoId="s3qSHXR1rNU"/>
         </div>
       
         <h3>

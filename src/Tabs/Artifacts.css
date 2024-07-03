@@ -1,4 +1,4 @@
-.App {
+s.App {
     text-align: center;
     min-height: 100vh; /* Ensure the app takes up at least the full viewport height */
     display: flex;
@@ -54,6 +54,19 @@
       animation: App-logo-spin infinite 20s linear;
     }
   }
+  .download-button {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .download-button:hover {
+    background-color: #0056b3;
+  }
   
   .App-header {
     background-color: #282c34;
@@ -63,6 +76,10 @@
   .App-link {
     color: #61dafb;
   }
+.pdf {
+  padding-top: 10px;
+  width: 70%;
+}
   
   @keyframes App-logo-spin {
     from {

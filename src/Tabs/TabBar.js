@@ -25,10 +25,10 @@ const TabBar = () => {
                         <Link to="aboutme" spy={true} smooth={true} offset={50} duration={500} Click={closeMenu}>About Me</Link>
                     </li>
                     <li className='nav-item'>
-                        <Link to="projects" spy={true} smooth={true} offset={50} duration={500} onClick={closeMenu}>Projects</Link>
+                        <Link to="projects" spy={true} smooth={true} offset={-50} duration={500} onClick={closeMenu}>Projects</Link>
                     </li>
                     <li className='nav-item'>
-                        <Link to="artifacts" spy={true} smooth={true} offset={50} duration={500} onClick={closeMenu}>Artifacts</Link>
+                        <Link to="artifacts" spy={true} smooth={true} offset={-50} duration={500} onClick={closeMenu}>Artifacts</Link>
                     </li>
                 </ul>
             </nav>

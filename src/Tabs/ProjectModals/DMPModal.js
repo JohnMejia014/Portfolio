@@ -34,15 +34,15 @@ const DMPModal = ({ projectClicked, closeModal, project }) => {
             return (
                 <div key={2}>
                     <h2>Rotoscope Messi</h2>
-                    <p>Used Adobe Animate to animate a stock video of messijuggling using rotoscoping techniques</p>
+                    <p>Used Adobe Animate to animate a stock video of messi juggling using rotoscoping techniques</p>
                     <VideoPlayer src={Messi} width="800" height="450" />
                 </div>
             );
           case 3:
             return (
                 <div key={3}>
-                    <h2>MotionGraphics</h2>
-                    <p>Used Adobe Premier to create this mask to give the illusion that I am interacting with myself</p>
+                    <h2>Motion Graphics</h2>
+                    <p>Used Adobe After Effects to design a motion graphics video for an intro the Digital Media Production class</p>
                     <VideoPlayer src={MotionGraphics} width="800" height="450" />
                 </div>
             );          
@@ -50,7 +50,7 @@ const DMPModal = ({ projectClicked, closeModal, project }) => {
             return (
                 <div key={4}>
                     <h2>Thinking Animation</h2>
-                    <p>Used Adobe Premier to create this mask to give the illusion that I am interacting with myself</p>
+                    <p>Used Adobe Animate to animate a stock video of a man thinking using rotoscope techniques</p>
                     <VideoPlayer src={Thinking} width="800" height="450" />
                 </div>
             );   
@@ -58,7 +58,7 @@ const DMPModal = ({ projectClicked, closeModal, project }) => {
             return (
                 <div key={5}>
                     <h2>Compositing</h2>
-                     <p>Used Adobe Premier to create this mask to give the illusion that I am interacting with myself</p>
+                     <p>Used Adobe After Effects and compositing techniques to take a 3D stock image of a man walking and insert that into another stock image. </p>
                       <VideoPlayer src={Compositing} width="800" height="450" />
                </div>
                 );         
@@ -66,7 +66,7 @@ const DMPModal = ({ projectClicked, closeModal, project }) => {
             return (
                 <div key={6}>
                     <h2>Star Wars Poster</h2>
-                        <p>Used Adobe Premier to create this mask to give the illusion that I am interacting with myself</p>
+                        <p>Used Adobe Photoshop to create a movie poster about a fictional movie</p>
                         <img src={StarWarsPoster} alt="StarWarsPoster"/>
                 </div>
                         );     
@@ -93,6 +93,7 @@ const DMPModal = ({ projectClicked, closeModal, project }) => {
             &gt;
           </Button>
           </div>
+          <p>{projectIndex}/6</p>
         </div>
       </div>
   );

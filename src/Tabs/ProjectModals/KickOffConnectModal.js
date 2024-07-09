@@ -3,7 +3,6 @@ import React, {useState} from 'react';
 import Button from '@mui/material/Button';
 import VideoPlayer from '../Components/VideoPlayer';
 import report from '../Components/KickOffConnectFiles/KickOffConnectReport.pdf'
-import video from '../Components/KickOffConnectFiles/KickOffConnectVideo.mp4'
 import { Worker, Viewer } from '@react-pdf-viewer/core';
 import '@react-pdf-viewer/core/lib/styles/index.css';
 import './KickOffConnectModal.css'
@@ -28,7 +27,7 @@ const KickOffConnectModal = ({ projectClicked, closeModal, project }) => {
         </h2>
 
         <div className='ytvid'>
-          <YouTubeEmbed videoId="s3qSHXR1rNU"/>
+          <YouTubeEmbed videoId="j8Zq6n1aPuw"/>
         </div>
       
         <h3>

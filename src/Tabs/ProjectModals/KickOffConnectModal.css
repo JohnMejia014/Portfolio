@@ -34,3 +34,12 @@
 .Video{
     border-radius: 100%;
 }
+.github-link {
+  color: #0366d6; /* GitHub blue */
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.github-link:hover {
+  text-decoration: underline;
+}

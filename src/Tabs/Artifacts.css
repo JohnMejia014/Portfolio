@@ -89,4 +89,29 @@ s.App {
       transform: rotate(360deg);
     }
   }
+  .github-container {
+    margin: 20px 0;
+  }
   
+  .github-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 32px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #000; /* GitHub's black color */
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .github-button:hover {
+    background-color: #24292e; /* Darker GitHub color */
+    color: #e1e4e8; /* Light gray for text */
+  }
+  
+  .github-button:active {
+    background-color: #2c313a; /* Even darker on click */
+  }

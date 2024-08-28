@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.3cf1b80c.css",
-    "main.js": "/Portfolio/static/js/main.aa4bd142.js",
+    "main.css": "/Portfolio/static/css/main.710586eb.css",
+    "main.js": "/Portfolio/static/js/main.a4de5ccf.js",
     "static/js/453.ace21015.chunk.js": "/Portfolio/static/js/453.ace21015.chunk.js",
     "static/media/ScreenTrickShot.mp4": "/Portfolio/static/media/ScreenTrickShot.84e0025e3bf5d62d1f56.mp4",
     "static/media/CVProject.pdf": "/Portfolio/static/media/CVProject.bc3a9fa563a3fa5d5c4c.pdf",
@@ -14,9 +14,9 @@
     "static/media/Juggling2.mp4": "/Portfolio/static/media/Juggling2.dd1b3031777a60a025d6.mp4",
     "static/media/UTSelfie.jpg": "/Portfolio/static/media/UTSelfie.debf8217adac8a5c708b.jpg",
     "static/media/Transcript.pdf": "/Portfolio/static/media/Transcript.f2bc3983daad936304ef.pdf",
-    "static/media/John-Mejia-Software Engineer.pdf": "/Portfolio/static/media/John-Mejia-Software Engineer.dee82678fa5feeb5b1a5.pdf",
     "static/media/StarWarsPoster.jpg": "/Portfolio/static/media/StarWarsPoster.ffe902220b0f19804ad4.jpg",
     "static/media/CV.png": "/Portfolio/static/media/CV.da532ca0ed2c760baa02.png",
+    "static/media/ResumeJohnMejia.pdf": "/Portfolio/static/media/ResumeJohnMejia.acff12e7f804ac1df417.pdf",
     "static/media/KickOffConnectDiscoveryScreen.png": "/Portfolio/static/media/KickOffConnectDiscoveryScreen.5f01b2aa66bbf636539e.png",
     "static/media/Website.png": "/Portfolio/static/media/Website.bf134f2fc37704eccdd5.png",
     "static/media/Websiteimf4.png": "/Portfolio/static/media/Websiteimf4.77243f1bfd0461cb36db.png",
@@ -26,12 +26,12 @@
     "static/media/Websiteimg6.png": "/Portfolio/static/media/Websiteimg6.50a3a70a16ba2b32990d.png",
     "static/media/Websiteimg3.png": "/Portfolio/static/media/Websiteimg3.7903e1a9499e61ff3e3f.png",
     "index.html": "/Portfolio/index.html",
-    "main.3cf1b80c.css.map": "/Portfolio/static/css/main.3cf1b80c.css.map",
-    "main.aa4bd142.js.map": "/Portfolio/static/js/main.aa4bd142.js.map",
+    "main.710586eb.css.map": "/Portfolio/static/css/main.710586eb.css.map",
+    "main.a4de5ccf.js.map": "/Portfolio/static/js/main.a4de5ccf.js.map",
     "453.ace21015.chunk.js.map": "/Portfolio/static/js/453.ace21015.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3cf1b80c.css",
-    "static/js/main.aa4bd142.js"
+    "static/css/main.710586eb.css",
+    "static/js/main.a4de5ccf.js"
   ]
 }
